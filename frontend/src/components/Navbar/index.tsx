@@ -23,7 +23,7 @@ const Navbar = () => {
           </button>
 
           <div className="collapse navbar-collapse" id="dscarros-navbar">
-            <ul className="navbar-nav offset-md-10 main-menu">
+            <ul className="navbar-nav offset-md-9 main-menu">
               <li>
                 <a href="link" className="active">
                   Home
