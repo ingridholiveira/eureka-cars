@@ -1,6 +1,7 @@
 import Navbar from "components/Navbar";
 import { ReactComponent as MainImage } from "assets/images/main-image.svg";
 import "./styles.css";
+import Button from "components/Button";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Button />
     </>
   );
 };
