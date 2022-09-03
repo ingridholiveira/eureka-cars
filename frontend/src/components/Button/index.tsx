@@ -10,8 +10,9 @@ const Button = () => {
               <p>VER CATÁLOGO</p>
             </button>
           </div>
-
-          <p>Comece agora a navegar</p>
+          <div className="button-text">
+            <p>Comece agora a navegar</p>
+          </div>
         </div>
       </div>
     </>
