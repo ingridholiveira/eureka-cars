@@ -1,12 +1,12 @@
-import Navbar from "components/Navbar";
+//import Navbar from "components/Navbar";
 import { ReactComponent as MainImage } from "assets/images/main-image.svg";
 import "./styles.css";
 import Button from "components/Button";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
       <div className="home-container">
         <div className="home-card">
           <div className="home-content-container">
@@ -23,7 +23,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Button />
+      <Link to="/products">
+        <Button />
+      </Link>
     </>
   );
 };
