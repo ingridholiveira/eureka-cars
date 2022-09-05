@@ -1,20 +1,24 @@
 import "./styles.css";
 
 const Button = () => {
+  // interface Props {
+  //   header: string;
+  //   body: string;
+  //   modalType: 'confirm' | 'success';
+  //   onClose: () => void;
+  //   isOpen: boolean;
+  //   actions: {
+  //     label: string;
+  //     type: 'primary' | 'secondary';
+  //     action: () => void;
+  //   }[];
+  // }
+
   return (
     <>
-      <div className="button-container">
-        <div className="button-content-container">
-          <div className="button-card">
-            <button className="btn btn-secondary btn-icon">
-              <p>VER CATÁLOGO</p>
-            </button>
-          </div>
-          <div className="button-text">
-            <p>Comece agora a navegar</p>
-          </div>
-        </div>
-      </div>
+      <button className="btn btn-secondary btn-icon">
+        <p>VER CATÁLOGO</p>
+      </button>
     </>
   );
 };

@@ -1,0 +1,10 @@
+.product-description-container {
+  line-height: 16px;
+  text-align: left;
+}
+
+.product-description-container span {
+  color: #585858;
+  font-size: 14px;
+  font-style: italic;
+}

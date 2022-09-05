@@ -23,9 +23,18 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Link to="/products">
-        <Button />
-      </Link>
+      <div className="button-container">
+        <div className="button-content-container">
+          <div className="button-card">
+            <Link to="/products">
+              <Button />
+            </Link>
+          </div>
+          <div className="button-text">
+            <p>Comece agora a navegar</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
