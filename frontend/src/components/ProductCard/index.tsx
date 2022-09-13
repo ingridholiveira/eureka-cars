@@ -12,8 +12,12 @@ const ProductCard = () => {
         </div>
         <div className="card-bottom-container">
           <h6>Audi Supra TT</h6>
-          <ProductDescription />
-          <Button />
+          <div>
+            <ProductDescription />
+          </div>
+          <div className="">
+            <Button label="COMPRAR" />
+          </div>
         </div>
       </div>
     </>

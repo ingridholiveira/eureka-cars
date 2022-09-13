@@ -1,26 +1,14 @@
+//import { ReactChild, ReactFragment, ReactPortal } from "react";
 import "./styles.css";
 
-const Button = () => {
-  // interface Props {
-  //   header: string;
-  //   body: string;
-  //   modalType: 'confirm' | 'success';
-  //   onClose: () => void;
-  //   isOpen: boolean;
-  //   actions: {
-  //     label: string;
-  //     type: 'primary' | 'secondary';
-  //     action: () => void;
-  //   }[];
-  // }
-
+function Button(props: { label: string }) {
   return (
     <>
       <button className="btn btn-secondary btn-icon">
-        <p>VER CATÁLOGO</p>
+        <p>{props.label}</p>
       </button>
     </>
   );
-};
+}
 
 export default Button;

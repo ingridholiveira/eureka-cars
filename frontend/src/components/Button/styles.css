@@ -15,5 +15,18 @@
 }
 
 .btn-icon:hover {
+  text-transform: none;
   color: #00285f;
 }
+
+/* @media (min-width: 260px) {
+  .btn-icon {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn-icon {
+    width: 260px;
+  }
+} */

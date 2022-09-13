@@ -27,7 +27,7 @@ const Home = () => {
         <div className="button-content-container">
           <div className="button-card">
             <Link to="/products">
-              <Button />
+              <Button label="VER CATÁLOGO" />
             </Link>
           </div>
           <div className="button-text">
