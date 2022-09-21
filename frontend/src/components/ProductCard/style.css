@@ -10,7 +10,7 @@
 }
 
 .card-top-container img {
-  width: 250px;
+  width: 210px;
 }
 
 .card-bottom-container {
@@ -23,4 +23,13 @@
   font-size: 18px;
   color: #000000;
   margin-bottom: 14px;
+}
+
+.card-bottom-description {
+  padding-bottom: 5px;
+  margin-bottom: 35px;
+}
+
+.card-bottom-btn {
+  margin: 20px 0 15px 0;
 }

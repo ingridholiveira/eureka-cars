@@ -23,14 +23,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="button-container">
-        <div className="button-content-container">
-          <div className="button-card">
+      <div className="second-container">
+        <div className="second-content-container">
+          <div className="second-card">
             <Link to="/products">
               <Button label="VER CATÁLOGO" />
             </Link>
           </div>
-          <div className="button-text">
+          <div className="second-container-text">
             <p>Comece agora a navegar</p>
           </div>
         </div>
