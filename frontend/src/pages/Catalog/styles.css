@@ -3,7 +3,6 @@
 }
 
 .first-container {
-  margin: 10px 5px;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -17,7 +16,7 @@
   background-color: #e5e5e5;
   align-items: center;
   border-radius: 10px;
-  margin: 10px 5px;
+  margin-top: 20px;
 }
 
 @media (min-width: 576px) {
@@ -31,17 +30,16 @@
 @media (min-width: 768px) {
   .first-content-container {
     min-width: 710px;
-    margin: 30px;
   }
 }
-
+/*
 @media (min-width: 992px) {
   .first-content-container {
     min-width: 930px;
   }
-}
+} */
 
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
   .first-content-container {
     min-width: 980px;
     margin: 30px 50px;
@@ -58,4 +56,4 @@
   .first-content-container {
     margin: 40px 150px;
   }
-}
+} */

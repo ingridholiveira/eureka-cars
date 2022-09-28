@@ -5,23 +5,22 @@ const SearchButton = () => {
   return (
     <>
       <div className="search-button">
-        <div className="search-button-content">
+        <div className="search-button-content input-group mb-3">
           <input
             type="text"
             placeholder="Digite sua busca"
-            className="search-input-button"
+            className="search-input-button form-control"
             aria-label="Digite sua busca"
             aria-describedby="button-addon2"
           />
-          <div className="">
-            <button
-              className="btn btn-secondary btn-search-icon"
-              type="button"
-              id="button-addon2"
-            >
-              <p>BUSCAR</p>
-            </button>
-          </div>
+
+          <button
+            className="btn btn-secondary btn-search-icon"
+            type="button"
+            id="button-addon2"
+          >
+            <p>BUSCAR</p>
+          </button>
         </div>
       </div>
     </>

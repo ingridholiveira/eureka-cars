@@ -7,7 +7,7 @@ const Catalog = () => {
   return (
     <>
       <div className="catalog-container">
-        <div className="first-container">
+        <div className="first-container container">
           <div className="first-content-container">
             <SearchButton />
           </div>
